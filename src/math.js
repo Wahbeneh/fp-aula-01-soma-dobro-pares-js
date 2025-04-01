@@ -8,7 +8,15 @@
  * @param {Array} numeros vetor com os números desejados
  */
 function somaDobroNumerosParesFuncional(numeros){
-    // TODO: Insira seu código funcional aqui
+
+    const somaQuadradoPares = numeros
+        return somaQuadradoPares
+        .filter(n => n % 2 === 0)
+        .map(n => n * 2)
+        .reduce((soma, n) => soma + n, 0);
+
+        console.log(somaQuadradoPares);
+
 }
 
 /**
